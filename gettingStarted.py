@@ -33,7 +33,9 @@ def welcome_assignment_answers(question):
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         ### maybe put something here to flag an issue and catch errors
-        raise Exception ("This is an unexpected question.")
+        #raise Exception ("This is an unexpected question.")
+
+        answer = "This is an unexpected question " + question
 
     return(answer)
 
@@ -43,7 +45,7 @@ def welcome_assignment_answers(question):
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
     #debug_question = "Are encoding and encryption the same? - Yes/No"
-    debug_question = "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number"
+    debug_question = "who am i?"
     print(welcome_assignment_answers(debug_question))
 
 #Questions:
