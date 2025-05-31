@@ -35,7 +35,7 @@ def welcome_assignment_answers(question):
         ### maybe put something here to flag an issue and catch errors
         #raise Exception ("This is an unexpected question.")
 
-        answer = "This is an unexpected question " + question
+        answer = "Error in the question specified " + question
 
     return(answer)
 
